@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Authors>digitallyrefreshed</Authors>
+    <Description>A .NET Standard 2.1 implementation of RFC3394</Description>
+    <PackageProjectUrl>https://github.com/digitallyrefreshed/RFC3394.net</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/digitallyrefreshed/RFC3394.net</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>RFC3394;aes key wrapping;</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RootNamespace>RFC3394</RootNamespace>
+    <SignAssembly>False</SignAssembly>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
